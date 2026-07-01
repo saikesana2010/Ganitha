@@ -78,7 +78,7 @@
 ```bash
 # Clone the repo
 git clone <repo-url>
-cd magine
+cd ganitha
 
 # Start everything
 docker-compose up --build
@@ -102,7 +102,7 @@ cd backend
 pip install -r requirements.txt
 
 # Set environment variables
-export DATABASE_URL="postgresql+asyncpg://ganitha:magine@localhost:5432/ganitha"
+export DATABASE_URL="postgresql+asyncpg://ganitha:ganitha@localhost:5432/ganitha"
 
 # Start PostgreSQL (via Docker or local install)
 docker run -d -p 5432:5432 -e POSTGRES_USER=Ganitha -e POSTGRES_PASSWORD=Ganitha -e POSTGRES_DB=ganitha postgres:16-alpine
@@ -418,8 +418,4 @@ Built with:
 
 For issues or questions:
 - Open a GitHub issue
-- Email: support@magine.dev (placeholder)
-
----
-
-**Made with ❤️ for students everywhere**
+- Email: saikesana2010@gmail.com (placeholder)
