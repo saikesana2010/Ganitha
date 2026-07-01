@@ -102,10 +102,10 @@ cd backend
 pip install -r requirements.txt
 
 # Set environment variables
-export DATABASE_URL="postgresql+asyncpg://magine:magine@localhost:5432/magine"
+export DATABASE_URL="postgresql+asyncpg://ganitha:magine@localhost:5432/ganitha"
 
 # Start PostgreSQL (via Docker or local install)
-docker run -d -p 5432:5432 -e POSTGRES_USER=magine -e POSTGRES_PASSWORD=magine -e POSTGRES_DB=magine postgres:16-alpine
+docker run -d -p 5432:5432 -e POSTGRES_USER=Ganitha -e POSTGRES_PASSWORD=Ganitha -e POSTGRES_DB=ganitha postgres:16-alpine
 
 # Run backend
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
@@ -236,7 +236,7 @@ Get recently solved questions from cache.
 ## Project Structure
 
 ```
-magine/
+ganitha/
 ├── backend/
 │   ├── app/
 │   │   ├── core/
@@ -283,7 +283,7 @@ magine/
 
 **Backend** (`backend/.env`):
 ```bash
-DATABASE_URL=postgresql+asyncpg://magine:magine@localhost:5432/magine
+DATABASE_URL=postgresql+asyncpg://ganitha:ganitha@localhost:5432/ganitha
 OLLAMA_URL=http://localhost:11434/api/generate
 OLLAMA_MODEL=qwen2.5-math:1.5b
 ```
