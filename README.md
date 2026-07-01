@@ -1,6 +1,6 @@
-# Magine - Offline AI Math Solver
+# Ganitha - Offline AI Math Solver
 
-**Magine** is a production-grade, offline mathematics problem solver supporting Class 1–12 level problems across all syllabi (CBSE, ICSE, IB, State boards). It provides step-by-step solutions using a hybrid approach: structured symbolic math engines (SymPy) for speed and accuracy, with local LLM fallback for complex problems.
+**Ganitha** is a production-grade, offline mathematics problem solver supporting Class 1–12 level problems across all syllabi (CBSE, ICSE, IB, State boards). It provides step-by-step solutions using a hybrid approach: structured symbolic math engines (SymPy) for speed and accuracy, with local LLM fallback for complex problems.
 
 ---
 
